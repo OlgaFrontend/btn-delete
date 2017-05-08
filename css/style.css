@@ -1,0 +1,23 @@
+.text {
+	margin: 15px;
+	position: relative;
+	border: 2px solid red;
+	width: 100px;
+	height: 100px;
+}
+
+.text:hover .btn-delete {
+	display: block;
+	position: absolute;
+}
+
+.btn-delete {
+    display: none;
+    position: absolute;
+    top: -15px;
+    left: 100px;
+}
+
+#myDiv {
+	width: 104px;
+}
